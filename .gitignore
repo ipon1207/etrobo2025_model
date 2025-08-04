@@ -1,0 +1,12 @@
+# astahのプロジェクトファイル
+*.astah
+*.lock
+
+# astahの自動生成ファイル
+*.bak
+*.ajude
+*_astah_back/
+
+# OSの自動生成ファイル
+.DS_Store
+Thumbs.db
