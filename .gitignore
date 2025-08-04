@@ -1,5 +1,5 @@
 # astahのプロジェクトファイル
-*.astah
+*.asta
 *.lock
 
 # astahの自動生成ファイル
