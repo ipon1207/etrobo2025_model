@@ -10,3 +10,6 @@
 # OSの自動生成ファイル
 .DS_Store
 Thumbs.db
+
+# images内の画像ファイル
+*.png
