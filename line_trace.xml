@@ -188,9 +188,68 @@
           </UML:TaggedValue.modelElement>
         </UML:TaggedValue>
       </UML:ModelElement.taggedValue>
+      <UML:Namespace.ownedElement>
+        <UML:Actor xmi.id="1ga-75c525d6e48e8c216f05333bad4a68f7" name="usecase" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+          <UML:ModelElement.namespace>
+            <UML:Namespace xmi.idref="0-75c525d6e48e8c216f05333bad4a68f7"/>
+          </UML:ModelElement.namespace>
+          <UML:ModelElement.visibility xmi.value="public"/>
+          <UML:ModelElement.stereotype>
+            <UML:Stereotype xmi.idref="1gc-75c525d6e48e8c216f05333bad4a68f7"/>
+          </UML:ModelElement.stereotype>
+        </UML:Actor>
+        <UML:Stereotype xmi.id="1gc-75c525d6e48e8c216f05333bad4a68f7" name="actor" version="0" unSolvedFlag="false" isRoot="false" isLeaf="false" isAbstract="false">
+          <UML:Stereotype.baseClass>Actor</UML:Stereotype.baseClass>
+          <UML:Stereotype.extendedElement>
+            <JUDE:ModelElement xmi.idref="1ga-75c525d6e48e8c216f05333bad4a68f7" xmlns:JUDE="http://objectclub.esm.co.jp/Jude/namespace/"/>
+          </UML:Stereotype.extendedElement>
+        </UML:Stereotype>
+      </UML:Namespace.ownedElement>
     </UML:Model>
     <XMI.extension></XMI.extension>
-    <XMI.extension></XMI.extension>
+    <XMI.extension>
+      <JUDE:Diagram xmi.id="1ad-75c525d6e48e8c216f05333bad4a68f7" name="ユースケース図" typeInfo="UseCase Diagram" version="0" xmlns:JUDE="http://objectclub.esm.co.jp/Jude/namespace/">
+        <UML:ModelElement.namespace>
+          <UML:Namespace xmi.idref="0-75c525d6e48e8c216f05333bad4a68f7"/>
+        </UML:ModelElement.namespace>
+        <UML:ModelElement.taggedValue>
+          <UML:TaggedValue xmi.id="1aw-75c525d6e48e8c216f05333bad4a68f7" version="0" tag="jude.diagram.updated_version" value="10.1.0">
+            <UML:TaggedValue.modelElement>
+              <UML:ModelElement xmi.idref="1ad-75c525d6e48e8c216f05333bad4a68f7"/>
+            </UML:TaggedValue.modelElement>
+          </UML:TaggedValue>
+        </UML:ModelElement.taggedValue>
+        <JUDE:Diagram.presentations>
+          <JUDE:FramePresentation xmi.id="1av-75c525d6e48e8c216f05333bad4a68f7" version="0" depth="2147483636" stereotypeVisibility="true" constraintVisibility="true" notationType="0" width="640.0" height="480.0" doAutoResize="true" visibility="true" label="+">
+            <JUDE:UPresentation.diagram>
+              <JUDE:Diagram xmi.idref="1ad-75c525d6e48e8c216f05333bad4a68f7"/>
+            </JUDE:UPresentation.diagram>
+            <JUDE:JomtPresentation.location>
+              <XMI.field>10.0</XMI.field>
+              <XMI.field>10.0</XMI.field>
+            </JUDE:JomtPresentation.location>
+          </JUDE:FramePresentation>
+          <JUDE:ClassifierPresentation xmi.id="1g9-75c525d6e48e8c216f05333bad4a68f7" version="0" depth="2147483635" stereotypeVisibility="true" constraintVisibility="true" notationType="1" width="40.0" height="55.0" doAutoResize="true" visibility="true" label="usecase" isActive="false" allAttributeVisibility="true" allOperationVisibility="true" allEnumerationLiteralVisibility="false" visibilityKindVisibility="true" attributeTypeVisibility="true" parameterVisibility="true" parameterTypeVisibility="true" returnTypeVisibility="true" isClassNameItalic="false" attributeInitValueVisibility="true" enumerationLiteralValueVisibility="false" pathVisibility="0" attributeStereotypeVisibility="true" operationStereotypeVisibility="true" attributeConstraintVisibility="true" operationConstraintVisibility="true" publicAttributeVisibility="true" protectedAttributeVisibility="true" packageAttributeVisibility="true" privateAttributeVisibility="true" publicOperationVisibility="true" protectedOperationVisibility="true" packageOperationVisibility="true" privateOperationVisibility="true" classType="0" interfaceType="0" nameVisibility="true" templateParameterVisibility="true" templateParameterMultiline="false" boundClassTemplateParameterNameVisibility="true" boundClassTemplateParameterVisibility="true">
+            <JUDE:UPresentation.semanticModel>
+              <UML:Actor xmi.idref="1ga-75c525d6e48e8c216f05333bad4a68f7"/>
+            </JUDE:UPresentation.semanticModel>
+            <JUDE:UPresentation.diagram>
+              <JUDE:Diagram xmi.idref="1ad-75c525d6e48e8c216f05333bad4a68f7"/>
+            </JUDE:UPresentation.diagram>
+            <JUDE:UPresentation.customStyleMap>
+              <JUDE:UPresentation.styleProperty key="attribute.filter_by_visibility" value=""/>
+              <JUDE:UPresentation.styleProperty key="fill.color.alpha" value="FF"/>
+              <JUDE:UPresentation.styleProperty key="fill.color" value="#FFFFCC"/>
+              <JUDE:UPresentation.styleProperty key="operation.filter_by_visibility" value=""/>
+            </JUDE:UPresentation.customStyleMap>
+            <JUDE:JomtPresentation.location>
+              <XMI.field>78.0</XMI.field>
+              <XMI.field>148.0</XMI.field>
+            </JUDE:JomtPresentation.location>
+          </JUDE:ClassifierPresentation>
+        </JUDE:Diagram.presentations>
+      </JUDE:Diagram>
+    </XMI.extension>
   </XMI.content>
 </XMI>
 
