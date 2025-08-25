@@ -5,7 +5,7 @@
 
 このリポジトリは、ETロボコン2025で設計するUMLモデルを、チームで効率よく開発・管理するためのものです。
 
-astahで作成したモデル（`.asta`）と、その差分確認用XML（`.xml`）をGitでバージョン管理し、**設計の変更履歴を明確に残すこと**を目的とします。
+astahで作成したモデルのXML（`.xml`）をGitでバージョン管理し、**設計の変更履歴を明確に残すこと**を目的とします。
 
 ### この管理方法のメリット ✨
 
@@ -29,7 +29,7 @@ astahで作成したモデル（`.asta`）と、その差分確認用XML（`.xml
 ```
 main
  │
- ├─ feature/add-new-diagram (作業ブランチ)
+ ├─ line_trace/usecase (作業ブランチ)
  │   │
  │   └─ (編集 → コミット → プッシュ)
  │
@@ -48,12 +48,12 @@ git checkout main
 git pull origin main
 
 # 3. 新しい作業ブランチを作成し、そのブランチに移動する
-git checkout -b usecase/line-tracer
+git checkout -b line_trace/usecase
 ```
 
 **ブランチ名のルール (例):**
-- `UML図の種類/機能名`: UML図の追加 (例: `usecase/line-tracer`)
-- `fix/修正内容`: 修正 (例: `fix/usecase-tracer_robot`)
+- `UML図の種類/機能名`: UML図の追加 (例: `usecase/line-trace`)
+- `fix/修正内容`: 修正 (例: `fix/usecase-line_trace`)
 
 ### ステップ2: モデルの編集とXMLのエクスポート
 
@@ -64,17 +64,17 @@ git checkout -b usecase/line-tracer
 
 ### ステップ3: 変更内容の保存（コミット & プッシュ）
 
-編集した `.asta` ファイルと、エクスポートした `.xml` ファイルの両方を**セットで**コミットし、リモートリポジトリにプッシュします。
+エクスポートした `.xml` ファイルをコミットし、リモートリポジトリにプッシュします。
 
 ```bash
 # 1. 変更したファイルをステージングする
-git add tracer_robot.xml
+git add line_trace.xml
 
 # 2. 変更内容をコミットする (メッセージは分かりやすく)
-git commit -m "feat: 走行ロボットのユースケース図を追加"
+git commit -m "add: ライントレースのユースケース図を追加"
 
 # 3. リモートリポジトリにプッシュする
-git push origin usecase/line-tracer
+git push origin line_trace/usecase
 ```
 
 > **Tip:** コミットメッセージの先頭に `feat:` `fix:` などを付けると、変更の種類が分かりやすくなります（[Conventional Commits](https://www.conventionalcommits.org/)）。
@@ -96,10 +96,10 @@ GitHub上で、**「`自分の作業ブランチ` → `main`ブランチ」**へ
 
 ```bash
 # ローカルのブランチを削除
-git branch -d feature/add-sequence-diagram
+git branch -d line_trace/usecase
 
 # リモートのブランチを削除 (GitHubのPRマージ時に自動で削除する設定も可能)
-git push origin --delete feature/add-sequence-diagram
+git push origin --delete line_trace/usecase
 ```
 
 ---
