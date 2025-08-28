@@ -52,7 +52,7 @@ git checkout -b line_trace/usecase
 ```
 
 **ブランチ名のルール (例):**
-- `UML図の種類/機能名`: UML図の追加 (例: `usecase/line-trace`)
+- `機能名/UML図の種類`: UML図の追加 (例: `line_trace/usecase`)
 - `fix/修正内容`: 修正 (例: `fix/usecase-line_trace`)
 
 ### ステップ2: モデルの編集とXMLのエクスポート
